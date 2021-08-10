@@ -3,27 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		84E0585F26C1EFFB00F19F95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0585E26C1EFFB00F19F95 /* AppDelegate.swift */; };
-		84E0586126C1EFFB00F19F95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0586026C1EFFB00F19F95 /* SceneDelegate.swift */; };
-		84E0586326C1EFFB00F19F95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0586226C1EFFB00F19F95 /* ViewController.swift */; };
 		84E0586626C1EFFB00F19F95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E0586426C1EFFB00F19F95 /* Main.storyboard */; };
 		84E0586826C1F00000F19F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E0586726C1F00000F19F95 /* Assets.xcassets */; };
 		84E0586B26C1F00000F19F95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E0586926C1F00000F19F95 /* LaunchScreen.storyboard */; };
+		84E0587426C1F07700F19F95 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0587326C1F07700F19F95 /* User.swift */; };
+		84E0587626C1F56200F19F95 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0587526C1F56200F19F95 /* Address.swift */; };
+		84E0587C26C1F5CA00F19F95 /* UserListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0587B26C1F5CA00F19F95 /* UserListProtocol.swift */; };
+		84E0587E26C1F73A00F19F95 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0587D26C1F73A00F19F95 /* UserListViewController.swift */; };
+		84E0588126C1FDB300F19F95 /* UserListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0588026C1FDB300F19F95 /* UserListResponse.swift */; };
+		84E0588426C1FE0900F19F95 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0588326C1FE0900F19F95 /* Extensions.swift */; };
+		84E0588626C1FF6C00F19F95 /* UserListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0588526C1FF6C00F19F95 /* UserListPresenter.swift */; };
+		84E0588826C1FFD500F19F95 /* UserListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0588726C1FFD500F19F95 /* UserListInteractor.swift */; };
+		84E0588A26C2002200F19F95 /* UserListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0588926C2002200F19F95 /* UserListRouter.swift */; };
+		84E0588C26C202D100F19F95 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0588B26C202D100F19F95 /* NetworkConstants.swift */; };
+		84E0589026C2251800F19F95 /* UserDetailsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0588F26C2251800F19F95 /* UserDetailsProtocol.swift */; };
+		84E0589226C2259700F19F95 /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0589126C2259700F19F95 /* UserDetailsViewController.swift */; };
+		84E0589426C2261100F19F95 /* UserDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0589326C2261100F19F95 /* UserDetailsPresenter.swift */; };
+		84E0589626C2264D00F19F95 /* UserDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E0589526C2264D00F19F95 /* UserDetailsRouter.swift */; };
+		A1E92DB896B9A1B5FF4447B1 /* Pods_Justo_Random_User.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D24A3DFA8875C6E692CDEC26 /* Pods_Justo_Random_User.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37DE0F268DDE7DBDB94A8687 /* Pods-Justo Random User.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Justo Random User.release.xcconfig"; path = "Target Support Files/Pods-Justo Random User/Pods-Justo Random User.release.xcconfig"; sourceTree = "<group>"; };
 		84E0585B26C1EFFB00F19F95 /* Justo Random User.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Justo Random User.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E0585E26C1EFFB00F19F95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84E0586026C1EFFB00F19F95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84E0586226C1EFFB00F19F95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84E0586526C1EFFB00F19F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84E0586726C1F00000F19F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E0586A26C1F00000F19F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E0586C26C1F00000F19F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E0587326C1F07700F19F95 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		84E0587526C1F56200F19F95 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		84E0587B26C1F5CA00F19F95 /* UserListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListProtocol.swift; sourceTree = "<group>"; };
+		84E0587D26C1F73A00F19F95 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		84E0588026C1FDB300F19F95 /* UserListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListResponse.swift; sourceTree = "<group>"; };
+		84E0588326C1FE0900F19F95 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		84E0588526C1FF6C00F19F95 /* UserListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListPresenter.swift; sourceTree = "<group>"; };
+		84E0588726C1FFD500F19F95 /* UserListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListInteractor.swift; sourceTree = "<group>"; };
+		84E0588926C2002200F19F95 /* UserListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListRouter.swift; sourceTree = "<group>"; };
+		84E0588B26C202D100F19F95 /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		84E0588F26C2251800F19F95 /* UserDetailsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsProtocol.swift; sourceTree = "<group>"; };
+		84E0589126C2259700F19F95 /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		84E0589326C2261100F19F95 /* UserDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsPresenter.swift; sourceTree = "<group>"; };
+		84E0589526C2264D00F19F95 /* UserDetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsRouter.swift; sourceTree = "<group>"; };
+		BAD5C9265D59FA46D39F5596 /* Pods-Justo Random User.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Justo Random User.debug.xcconfig"; path = "Target Support Files/Pods-Justo Random User/Pods-Justo Random User.debug.xcconfig"; sourceTree = "<group>"; };
+		D24A3DFA8875C6E692CDEC26 /* Pods_Justo_Random_User.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Justo_Random_User.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1E92DB896B9A1B5FF4447B1 /* Pods_Justo_Random_User.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +71,8 @@
 			children = (
 				84E0585D26C1EFFB00F19F95 /* Justo Random User */,
 				84E0585C26C1EFFB00F19F95 /* Products */,
+				DED1C028F0A3A4941D390F28 /* Pods */,
+				B23D940A13293C842D8A5981 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +87,116 @@
 		84E0585D26C1EFFB00F19F95 /* Justo Random User */ = {
 			isa = PBXGroup;
 			children = (
+				84E0588226C1FDF600F19F95 /* utils */,
+				84E0587726C1F57C00F19F95 /* modules */,
+				84E0587226C1F04000F19F95 /* entities */,
 				84E0585E26C1EFFB00F19F95 /* AppDelegate.swift */,
-				84E0586026C1EFFB00F19F95 /* SceneDelegate.swift */,
-				84E0586226C1EFFB00F19F95 /* ViewController.swift */,
 				84E0586426C1EFFB00F19F95 /* Main.storyboard */,
 				84E0586726C1F00000F19F95 /* Assets.xcassets */,
 				84E0586926C1F00000F19F95 /* LaunchScreen.storyboard */,
 				84E0586C26C1F00000F19F95 /* Info.plist */,
 			);
 			path = "Justo Random User";
+			sourceTree = "<group>";
+		};
+		84E0587226C1F04000F19F95 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				84E0587F26C1FDA500F19F95 /* responses */,
+				84E0587326C1F07700F19F95 /* User.swift */,
+				84E0587526C1F56200F19F95 /* Address.swift */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
+		84E0587726C1F57C00F19F95 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				84E0587826C1F58A00F19F95 /* user */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		84E0587826C1F58A00F19F95 /* user */ = {
+			isa = PBXGroup;
+			children = (
+				84E0588D26C224F300F19F95 /* details */,
+				84E0587926C1F59000F19F95 /* list */,
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		84E0587926C1F59000F19F95 /* list */ = {
+			isa = PBXGroup;
+			children = (
+				84E0587A26C1F59D00F19F95 /* protocols */,
+				84E0587D26C1F73A00F19F95 /* UserListViewController.swift */,
+				84E0588526C1FF6C00F19F95 /* UserListPresenter.swift */,
+				84E0588726C1FFD500F19F95 /* UserListInteractor.swift */,
+				84E0588926C2002200F19F95 /* UserListRouter.swift */,
+			);
+			path = list;
+			sourceTree = "<group>";
+		};
+		84E0587A26C1F59D00F19F95 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				84E0587B26C1F5CA00F19F95 /* UserListProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		84E0587F26C1FDA500F19F95 /* responses */ = {
+			isa = PBXGroup;
+			children = (
+				84E0588026C1FDB300F19F95 /* UserListResponse.swift */,
+			);
+			path = responses;
+			sourceTree = "<group>";
+		};
+		84E0588226C1FDF600F19F95 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				84E0588326C1FE0900F19F95 /* Extensions.swift */,
+				84E0588B26C202D100F19F95 /* NetworkConstants.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		84E0588D26C224F300F19F95 /* details */ = {
+			isa = PBXGroup;
+			children = (
+				84E0588E26C2250300F19F95 /* protocols */,
+				84E0589126C2259700F19F95 /* UserDetailsViewController.swift */,
+				84E0589326C2261100F19F95 /* UserDetailsPresenter.swift */,
+				84E0589526C2264D00F19F95 /* UserDetailsRouter.swift */,
+			);
+			path = details;
+			sourceTree = "<group>";
+		};
+		84E0588E26C2250300F19F95 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				84E0588F26C2251800F19F95 /* UserDetailsProtocol.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		B23D940A13293C842D8A5981 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D24A3DFA8875C6E692CDEC26 /* Pods_Justo_Random_User.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DED1C028F0A3A4941D390F28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAD5C9265D59FA46D39F5596 /* Pods-Justo Random User.debug.xcconfig */,
+				37DE0F268DDE7DBDB94A8687 /* Pods-Justo Random User.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E0586F26C1F00000F19F95 /* Build configuration list for PBXNativeTarget "Justo Random User" */;
 			buildPhases = (
+				2C5CF1CF0681F7E529BACFFD /* [CP] Check Pods Manifest.lock */,
 				84E0585726C1EFFB00F19F95 /* Sources */,
 				84E0585826C1EFFB00F19F95 /* Frameworks */,
 				84E0585926C1EFFB00F19F95 /* Resources */,
+				43145FEA0D56047DF61C7FB3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +266,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C5CF1CF0681F7E529BACFFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Justo Random User-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43145FEA0D56047DF61C7FB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Justo Random User/Pods-Justo Random User-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Justo Random User/Pods-Justo Random User-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Justo Random User/Pods-Justo Random User-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84E0585726C1EFFB00F19F95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E0586326C1EFFB00F19F95 /* ViewController.swift in Sources */,
+				84E0588126C1FDB300F19F95 /* UserListResponse.swift in Sources */,
+				84E0587E26C1F73A00F19F95 /* UserListViewController.swift in Sources */,
+				84E0588C26C202D100F19F95 /* NetworkConstants.swift in Sources */,
+				84E0587426C1F07700F19F95 /* User.swift in Sources */,
+				84E0588426C1FE0900F19F95 /* Extensions.swift in Sources */,
+				84E0587C26C1F5CA00F19F95 /* UserListProtocol.swift in Sources */,
+				84E0588626C1FF6C00F19F95 /* UserListPresenter.swift in Sources */,
+				84E0589026C2251800F19F95 /* UserDetailsProtocol.swift in Sources */,
+				84E0589626C2264D00F19F95 /* UserDetailsRouter.swift in Sources */,
+				84E0589226C2259700F19F95 /* UserDetailsViewController.swift in Sources */,
 				84E0585F26C1EFFB00F19F95 /* AppDelegate.swift in Sources */,
-				84E0586126C1EFFB00F19F95 /* SceneDelegate.swift in Sources */,
+				84E0589426C2261100F19F95 /* UserDetailsPresenter.swift in Sources */,
+				84E0588826C1FFD500F19F95 /* UserListInteractor.swift in Sources */,
+				84E0587626C1F56200F19F95 /* Address.swift in Sources */,
+				84E0588A26C2002200F19F95 /* UserListRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +471,14 @@
 		};
 		84E0587026C1F00000F19F95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD5C9265D59FA46D39F5596 /* Pods-Justo Random User.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9D225BLZ4G;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Justo Random User/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +492,14 @@
 		};
 		84E0587126C1F00000F19F95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37DE0F268DDE7DBDB94A8687 /* Pods-Justo Random User.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9D225BLZ4G;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Justo Random User/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
